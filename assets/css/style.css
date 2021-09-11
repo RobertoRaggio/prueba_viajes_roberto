@@ -1,5 +1,12 @@
+body {
+    font-family: 'Urbanist', sans-serif;
+    background-color: black;
+}
+
 .navbar {
-    font-size: 20px;
-    position: static;
+    overflow: hidden;
     background-color: transparent;
+    top: 0;
+    display: block;
+    width: 100%;
 }
