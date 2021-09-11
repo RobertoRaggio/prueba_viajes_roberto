@@ -12,7 +12,7 @@
    <title>Viajes Chile</title>
    <link rel="shortcut icon" type="img/png" href="./assets/img/viajes.svg"/>
 <!--Bootsrtap 5.1.0-->
-   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous"><!--Google Fonts-->
 <!--Google Fonts-->
    <link rel="preconnect" href="https://fonts.googleapis.com">
    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -37,13 +37,13 @@
                 <a class="nav-link active text-white" aria-current="page" href="#">Inicio</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link text-white" href="#">Quienes somos</a>
+                <a class="nav-link text-white" href="#quienessomos">Quienes somos</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link text-white" href="#">Destacados</a>
+                <a class="nav-link text-white" href="#destacados">Destacados</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link text-white" href="#">Contacto</a>
+                <a class="nav-link text-white" href="#contacto">Contacto</a>
               </li>
             </ul>
           </div>
@@ -52,11 +52,6 @@
 
 <!--Carrousel-->
 <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
-  <div class="carousel-indicators">
-    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-  </div>
   <div class="carousel-inner">
     <div class="carousel-item active">
       <img src="./assets/img/carousel1.jpg" class="d-block w-100" alt="carousel1">
@@ -78,12 +73,12 @@
   </button>
 </div>
 <!--Quienes Somos-->
-<div class="text-center bg-black text-white pt-5 pb-5 d-sm-none d-md-none">
+<div class="text-center bg-black text-white pt-5 pb-5" id="quienessomos">
   <h3>¿QUIENES SOMOS?</h3>
   <hr class ="mx-3 bg-info align-center" size="8" width="90%" >
 </div>
 <!--Containers-->
-<div class="container bg-black text-white px-4 mb-5 pb-5 d-sm-none d-md-none">
+<div class="container bg-black text-white px-4 mb-5 pb-5">
   <div class="row">
     <div class="col-4">
       <div class="bg-info">
@@ -107,7 +102,7 @@
 </div>   
 
 <!--Destacados-->
-<div class="text-center bg-black text-white pt-5 pb-5">
+<div class="text-center bg-black text-white pt-5 pb-5" id="destacados">
   <h3>Destacados</h3>
   <hr class ="mx-5 bg-info align-center" size="8" width="90%" >
 </div>
@@ -148,7 +143,7 @@
 </div>
 
 <!--Contacto-->
-<div class="text-center bg-black text-white pt-5 pb-5">
+<div class="text-center bg-black text-white pt-5 pb-5" id="contacto">
   <h3>Contacto</h3>
   <hr class ="mx-5 bg-info align-center" size="8" width="90%" >
 </div>
@@ -194,5 +189,9 @@
     </div>
   </section>
 </footer>
+<!--Bootsrtap 5.1.1-->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+<!--JS del proyecto-->
+<link rel="stylesheet" href="./assets/javascript/style.js">
 </body>
 </html>

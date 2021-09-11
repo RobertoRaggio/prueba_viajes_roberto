@@ -8,5 +8,6 @@ body {
     background-color: transparent;
     top: 0;
     display: block;
+    position: absolute;
     width: 100%;
 }
